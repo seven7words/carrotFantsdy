@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 using UnityEngine.UI;
+using Image = UnityEngine.UI.Image;
 
 public class DotweenTest : MonoBehaviour
 {
 
     private Image maskImage;
-
+	private ScrollView test;
+	private GridLayoutGroup group;
     private Tween maskTween;
+
+	private Mask mask;
 	// Use this for initialization
 	void Start ()
 	{
