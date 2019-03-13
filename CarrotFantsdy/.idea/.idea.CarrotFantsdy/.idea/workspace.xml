@@ -10,12 +10,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ScrollViewTest.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ScrollViewTest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/ScrollViewTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="1065">
+              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
               <folding>
                 <marker date="1551281497422" expanded="false" signature="6:132" ph="..." />
                 <marker date="1551281497422" expanded="true" signature="226:2000" ph="{...}" />
@@ -26,6 +26,25 @@
                 <marker date="1551281497422" expanded="true" signature="1705:1746" ph="{...}" />
                 <marker date="1551281497422" expanded="true" signature="1800:1873" ph="{...}" />
                 <marker date="1551281497422" expanded="true" signature="1925:1998" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DotweenTest.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/DotweenTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+              <folding>
+                <marker date="1551277548780" expanded="true" signature="6:198" ph="..." />
+                <marker date="1551277548780" expanded="true" signature="240:1627" ph="{...}" />
+                <marker date="1551277548780" expanded="true" signature="427:1191" ph="{...}" />
+                <marker date="1551277548780" expanded="true" signature="479:832" ph="/* 1.doTween静态方法 ... */" />
+                <marker date="1551277548780" expanded="true" signature="1226:1346" ph="{...}" />
+                <marker date="1551277548780" expanded="true" signature="1399:1625" ph="{...}" />
+                <marker date="1551277548780" expanded="true" signature="1438:1532" ph="{...}" />
+                <marker date="1551277548780" expanded="true" signature="1569:1622" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,8 +89,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="800" />
-    <option name="width" value="480" />
+    <option name="x" value="650" />
+    <option name="width" value="630" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectView">
@@ -89,39 +108,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CarrotFantsdy (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CarrotFantsdy (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CarrotFantsdy (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CarrotFantsdy (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CarrotFantsdy (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Test" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CarrotFantsdy (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -129,10 +121,12 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,7 +141,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="6373" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -162,12 +156,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551196913083</updated>
-      <workItem from="1551196921740" duration="5069000" />
+      <workItem from="1551196921740" duration="5072000" />
+      <workItem from="1552479968635" duration="81000" />
+      <workItem from="1552481673065" duration="1148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5069000" />
+    <option name="totallyTimeSpent" value="6301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,28 +176,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1734694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24852072" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22585227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -262,202 +259,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assembly-CSharp.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/ce/c32eb8bf/Image.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7893">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0C55FB9-6FCC-4BB9-B747-EFCD18420B8C/af/b0809222/VisualElement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33722">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/20/1b3c58fa/GridLayoutGroup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/5f/31370c45/LayoutGroup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-923">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0C55FB9-6FCC-4BB9-B747-EFCD18420B8C/5a/516c9dc9/ScrollView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1551195654261" expanded="false" signature="6:214" ph="..." />
-            <marker date="1551195654261" expanded="true" signature="243:1771" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="307:1769" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="398:989" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="1030:1116" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="1144:1213" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="1244:1362" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="1451:1597" ph="{...}" />
-            <marker date="1551195654261" expanded="true" signature="1643:1763" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB3F964-2747-47EA-8DBB-F446E27D4D28/2e/864e02c2/Rect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="280" column="17" lean-forward="false" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB3F964-2747-47EA-8DBB-F446E27D4D28/01/d71c3939/RectTransform.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="131" column="19" lean-forward="false" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
-          <folding>
-            <marker date="1551278438594" expanded="true" signature="0:319" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1551278438594" expanded="false" signature="327:388" ph="..." />
-            <marker date="1551278438594" expanded="true" signature="411:11543" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="416:529" ph="///   &lt;para&gt;Position, size, anchor and pivot information for a rectangle.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="614:11541" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="623:740" ph="///   &lt;para&gt;The calculated rectangle in the local space of the Transform.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="761:881" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="777:875" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="1034:1184" ph="///   &lt;para&gt;The normalized position in the parent RectTransform that the lower left corner is anchored to.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="1213:1424" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="1229:1344" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="1354:1418" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="1740:1891" ph="///   &lt;para&gt;The normalized position in the parent RectTransform that the upper right corner is anchored to.&lt;/para ... " />
-            <marker date="1551278438594" expanded="true" signature="1920:2131" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="1936:2051" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="2061:2125" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="2447:2593" ph="///   &lt;para&gt;The 3D position of the pivot of this RectTransform relative to the anchor reference point.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="2631:3037" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="2647:2811" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="2821:3031" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="3043:3186" ph="///   &lt;para&gt;The position of the pivot of this RectTransform relative to the anchor reference point.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="3222:3447" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="3238:3360" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="3370:3441" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="3777:3910" ph="///   &lt;para&gt;The size of this RectTransform relative to the distances between the anchors.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="3939:4150" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="3955:4070" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="4080:4144" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="4466:4591" ph="///   &lt;para&gt;The normalized position in this RectTransform that it rotates around.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="4616:4819" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="4632:4743" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="4753:4813" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="5759:6009" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="6015:6238" ph="///   &lt;para&gt;Get the corners of the calculated rectangle in the local space of its Transform.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="6298:6915" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="6371:6503" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="6514:6909" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="6921:7121" ph="///   &lt;para&gt;Get the corners of the calculated rectangle in world space.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="7181:7684" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="7254:7386" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="7397:7678" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="7726:8205" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="7924:8126" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="8211:8354" ph="///   &lt;para&gt;The offset of the lower left corner of the rectangle relative to the lower left anchor.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="8383:8732" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="8399:8497" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="8507:8726" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="8738:8883" ph="///   &lt;para&gt;The offset of the upper right corner of the rectangle relative to the upper right anchor.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="8912:9275" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="8928:9040" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="9050:9269" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="9372:10180" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="10260:10489" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="10526:10694" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="10700:10812" ph="///   &lt;para&gt;Force the recalculation of RectTransforms internal data.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="10957:11103" ph="///   &lt;para&gt;Delegate used for the reapplyDrivenProperties event.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="11181:11282" ph="///   &lt;para&gt;Enum used to specify one edge of a rectangle.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="11303:11365" ph="{...}" />
-            <marker date="1551278438594" expanded="true" signature="11371:11470" ph="///   &lt;para&gt;An axis that can be horizontal or vertical.&lt;/para&gt; ... " />
-            <marker date="1551278438594" expanded="true" signature="11491:11537" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/a7/667f15ae/ScrollRect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="324" column="38" lean-forward="false" selection-start-line="324" selection-start-column="38" selection-end-line="324" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/c7/22c7b043/IScrollHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/388CE5B0-3CEC-4CBE-8B0A-2AAB8E324B3A/9c/5ab6c3b5/GeneratedByOldBindingsGeneratorAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/1b/41bae575/Mask.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1454">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/DotweenTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <marker date="1551277548780" expanded="false" signature="6:198" ph="..." />
-            <marker date="1551277548780" expanded="true" signature="240:1627" ph="{...}" />
-            <marker date="1551277548780" expanded="true" signature="427:1191" ph="{...}" />
-            <marker date="1551277548780" expanded="true" signature="479:832" ph="/* 1.doTween静态方法 ... */" />
-            <marker date="1551277548780" expanded="true" signature="1226:1346" ph="{...}" />
-            <marker date="1551277548780" expanded="true" signature="1399:1625" ph="{...}" />
-            <marker date="1551277548780" expanded="true" signature="1438:1532" ph="{...}" />
-            <marker date="1551277548780" expanded="true" signature="1569:1622" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/ScrollViewTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="1065">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding>
             <marker date="1551281497422" expanded="false" signature="6:132" ph="..." />
             <marker date="1551281497422" expanded="true" signature="226:2000" ph="{...}" />
@@ -472,5 +277,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/DotweenTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1551277548780" expanded="true" signature="6:198" ph="..." />
+            <marker date="1551277548780" expanded="true" signature="240:1627" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="427:1191" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="479:832" ph="/* 1.doTween静态方法 ... */" />
+            <marker date="1551277548780" expanded="true" signature="1226:1346" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1399:1625" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1438:1532" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1569:1622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/ScrollViewTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <marker date="1551281497422" expanded="false" signature="6:132" ph="..." />
+            <marker date="1551281497422" expanded="true" signature="226:2000" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="355:1473" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1155:1271" ph="/* Debug.Log(contentRectTransform.rect.right); ... */" />
+            <marker date="1551281497422" expanded="true" signature="1528:1535" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1586:1662" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1705:1746" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1800:1873" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1925:1998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/DotweenTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1551277548780" expanded="true" signature="6:198" ph="..." />
+            <marker date="1551277548780" expanded="true" signature="240:1627" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="427:1191" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="479:832" ph="/* 1.doTween静态方法 ... */" />
+            <marker date="1551277548780" expanded="true" signature="1226:1346" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1399:1625" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1438:1532" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1569:1622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly-CSharp.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/ce/c32eb8bf/Image.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7893">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0C55FB9-6FCC-4BB9-B747-EFCD18420B8C/af/b0809222/VisualElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33722">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/20/1b3c58fa/GridLayoutGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/5f/31370c45/LayoutGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-923">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0C55FB9-6FCC-4BB9-B747-EFCD18420B8C/5a/516c9dc9/ScrollView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB3F964-2747-47EA-8DBB-F446E27D4D28/2e/864e02c2/Rect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="280" column="17" lean-forward="false" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB3F964-2747-47EA-8DBB-F446E27D4D28/01/d71c3939/RectTransform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="131" column="19" lean-forward="false" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/a7/667f15ae/ScrollRect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="324" column="38" lean-forward="false" selection-start-line="324" selection-start-column="38" selection-end-line="324" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/c7/22c7b043/IScrollHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/388CE5B0-3CEC-4CBE-8B0A-2AAB8E324B3A/9c/5ab6c3b5/GeneratedByOldBindingsGeneratorAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/602ED511-F8CC-43F3-9A8D-08178EA76EDA/1b/41bae575/Mask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1454">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/ScrollViewTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <marker date="1551281497422" expanded="false" signature="6:132" ph="..." />
+            <marker date="1551281497422" expanded="true" signature="226:2000" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="355:1473" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1155:1271" ph="/* Debug.Log(contentRectTransform.rect.right); ... */" />
+            <marker date="1551281497422" expanded="true" signature="1528:1535" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1586:1662" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1705:1746" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1800:1873" ph="{...}" />
+            <marker date="1551281497422" expanded="true" signature="1925:1998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test/DotweenTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <marker date="1551277548780" expanded="true" signature="6:198" ph="..." />
+            <marker date="1551277548780" expanded="true" signature="240:1627" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="427:1191" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="479:832" ph="/* 1.doTween静态方法 ... */" />
+            <marker date="1551277548780" expanded="true" signature="1226:1346" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1399:1625" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1438:1532" ph="{...}" />
+            <marker date="1551277548780" expanded="true" signature="1569:1622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

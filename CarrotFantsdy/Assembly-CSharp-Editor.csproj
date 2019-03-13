@@ -400,6 +400,10 @@
       <Project>{131C96D5-6CB2-904A-A522-85F0AC402245}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityWakatime.csproj">
+      <Project>{4ABFE1D3-7CE0-348A-9FAB-F6712CF22569}</Project>
+      <Name>UnityWakatime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
