@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\QHierarchy\Scripts\QObjectList.cs" />
+    <Compile Include="Assets\Scripts\SlideCanCoverScrollView.cs" />
     <Compile Include="Assets\Scripts\Test\DotweenTest.cs" />
     <Compile Include="Assets\Scripts\Test\ScrollViewTest.cs" />
     <None Include="Assets\DOTween\readme.txt" />
