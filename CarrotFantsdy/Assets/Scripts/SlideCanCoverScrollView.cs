@@ -66,13 +66,10 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
 	private void Awake()
 	{
 		_scrollRect = GetComponent<ScrollRect>();
-		contentLength = _scrollRect.content.rect.xMax - 2*leftOffset - cellLength;
+		contentLength = _scrollRect.content.rect.xMax - cellLength;
 		firstItemLength = cellLength / 2 + leftOffset;
 		oneItemLength = cellLength + spacing;
 		oneItemProportion = oneItemLength / contentLength;
-		Debug.Log(oneItemProportion);
-		Debug.Log(oneItemLength);
-		Debug.Log(contentLength);
 		upperLimit = 1 - firstItemLength / contentLength;
 		lowerLimit = firstItemLength / contentLength;
 		currentIndex = 1;
@@ -91,8 +88,6 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
         float offSetX = 0;
         endMousePosX = Input.mousePosition.x;
         offSetX = (beginMousePosX - endMousePosX)*2;
-        //Debug.Log("offSetX:" + offSetX);
-        //Debug.Log("firstItemLength:" + firstItemLength);
         if (Mathf.Abs(offSetX)>firstItemLength)//执行滑动动作的前提是要大于第一个需要滑动的距离
         {
             if (offSetX>0)//右滑
@@ -140,7 +135,6 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
             
             
         }
-		Debug.Log(lastProportion);
         DOTween.To(() => _scrollRect.horizontalNormalizedPosition, lerpValue => _scrollRect.horizontalNormalizedPosition = lerpValue, lastProportion, 0.5f).SetEase(Ease.OutQuint);
 
     }

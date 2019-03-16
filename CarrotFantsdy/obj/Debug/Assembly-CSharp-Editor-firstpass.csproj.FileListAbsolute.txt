@@ -299,3 +299,4 @@
 /Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
 /Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/obj/Debug/Assembly-CSharp-Editor-firstpass.dll
 /Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/obj/Debug/Assembly-CSharp-Editor-firstpass.pdb
+/Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/Temp/bin/Debug/UnityWakatime.pdb

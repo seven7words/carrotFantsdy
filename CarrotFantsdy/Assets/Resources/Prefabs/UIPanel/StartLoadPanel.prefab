@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1822328118904168}
+  m_RootGameObject: {fileID: 1486545775410402}
   m_IsPrefabParent: 1
---- !u!1 &1822328118904168
+--- !u!1 &1486545775410402
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224903449818930416}
-  - component: {fileID: 222973728539990660}
-  - component: {fileID: 114895908926565158}
-  - component: {fileID: 114367398950030686}
+  - component: {fileID: 224545805268974340}
+  - component: {fileID: 222073456417966938}
+  - component: {fileID: 114086355117053672}
+  - component: {fileID: 114109957218464724}
   m_Layer: 5
   m_Name: StartLoadPanel
   m_TagString: Untagged
@@ -29,23 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114367398950030686
+--- !u!114 &114086355117053672
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1822328118904168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53668eb27b340d344a3f4caaaefd89b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114895908926565158
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1822328118904168}
+  m_GameObject: {fileID: 1486545775410402}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -67,18 +56,29 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!222 &222973728539990660
+--- !u!114 &114109957218464724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486545775410402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!222 &222073456417966938
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1822328118904168}
---- !u!224 &224903449818930416
+  m_GameObject: {fileID: 1486545775410402}
+--- !u!224 &224545805268974340
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1822328118904168}
+  m_GameObject: {fileID: 1486545775410402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}

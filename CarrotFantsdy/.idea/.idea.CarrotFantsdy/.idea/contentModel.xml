@@ -73,6 +73,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="SlideCanCoverScrollView.cs" t="Include" />
+          <e p="SliderScrollView.cs" t="Include" />
           <e p="Test" t="Include">
             <e p="DotweenTest.cs" t="Include" />
             <e p="ScrollViewTest.cs" t="Include" />

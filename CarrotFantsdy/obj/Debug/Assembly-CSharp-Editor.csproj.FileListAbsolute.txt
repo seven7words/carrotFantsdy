@@ -301,3 +301,4 @@
 /Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
 /Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/obj/Debug/Assembly-CSharp-Editor.dll
 /Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/obj/Debug/Assembly-CSharp-Editor.pdb
+/Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/Temp/bin/Debug/UnityWakatime.pdb
