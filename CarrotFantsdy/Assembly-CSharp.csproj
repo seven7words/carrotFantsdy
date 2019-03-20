@@ -2,6 +2,11 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>4</LangVersion>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_rider_editor_plugin</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_rider_editor_plugin</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -14,7 +19,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -52,15 +57,52 @@
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\QHierarchy\Scripts\QObjectList.cs" />
+    <Compile Include="Assets\Scripts\Factory\AudioClipFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\BaseFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\FactoryType.cs" />
+    <Compile Include="Assets\Scripts\Factory\GameFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\IBaseFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\IBaseResourceFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\RuntimeAnimatorControllerFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\SpriteFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\UIFactory.cs" />
+    <Compile Include="Assets\Scripts\Factory\UIPanelFactory.cs" />
+    <Compile Include="Assets\Scripts\Manager\MonoBehaviourManager\GameController.cs" />
+    <Compile Include="Assets\Scripts\Manager\MonoBehaviourManager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\NormalManager\AudioSourceManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\NormalManager\FactoryManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\NormalManager\Memento.cs" />
+    <Compile Include="Assets\Scripts\Manager\NormalManager\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\NormalManager\StringManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\NormalManager\UIManger.cs" />
+    <Compile Include="Assets\Scripts\Scene\BaseSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\BossGameOptionSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\BossModelSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\IBaseSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\MainSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\MonsterNestSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\NormalGameOptionSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\NormalModelSceneState.cs" />
+    <Compile Include="Assets\Scripts\Scene\StartLoadScene.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\SlideCanCoverScrollView.cs" />
     <Compile Include="Assets\Scripts\SliderScrollView.cs" />
     <Compile Include="Assets\Scripts\Test\DotweenTest.cs" />
+    <Compile Include="Assets\Scripts\Test\DPFactory.cs" />
+    <Compile Include="Assets\Scripts\Test\DPState.cs" />
+    <Compile Include="Assets\Scripts\Test\IOP.cs" />
     <Compile Include="Assets\Scripts\Test\ScrollViewTest.cs" />
+    <Compile Include="Assets\Scripts\Test\TriggerManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIFacade.cs" />
     <None Include="Assets\DOTween\readme.txt" />
-    <None Include="Assets\ConsolePro\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
