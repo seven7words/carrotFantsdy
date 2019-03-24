@@ -67,6 +67,22 @@
           </e>
           <e p="UI" t="Include">
             <e p="UIFacade.cs" t="Include" />
+            <e p="UIPanel" t="Include">
+              <e p="BasePanel.cs" t="Include" />
+              <e p="BossModelPanel.cs" t="Include" />
+              <e p="GameBossOptionPanel.cs" t="Include" />
+              <e p="GameLoadPanel.cs" t="Include" />
+              <e p="GameNormalBigLevelPanel.cs" t="Include" />
+              <e p="GameNormalLevelPanel.cs" t="Include" />
+              <e p="GameNormalOptionPanel.cs" t="Include" />
+              <e p="HelpPanel.cs" t="Include" />
+              <e p="IBasePanel.cs" t="Include" />
+              <e p="MainPanel.cs" t="Include" />
+              <e p="MonsterNestPanel.cs" t="Include" />
+              <e p="NormalModelPanel.cs" t="Include" />
+              <e p="SetPanel.cs" t="Include" />
+              <e p="StartLoadPanel.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

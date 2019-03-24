@@ -2,117 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e4be46-3e65-4cb9-9a7f-989c146f2fea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/Memento.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/Memento.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/PlayerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/PlayerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/StringManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/StringManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/BaseSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/BaseSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/BossGameOptionSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/BossGameOptionSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/BossModelSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/BossModelSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/MainSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/MainSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/MonsterNestSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/MonsterNestSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/NormalGameOptionSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/NormalGameOptionSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/NormalModelSceneState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/NormalModelSceneState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/StartLoadScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scene/StartLoadScene.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/DPFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/DPFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/DPState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/DPState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/IOP.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/IOP.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/TriggerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/TriggerManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CarrotFantsdy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarrotFantsdy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CarrotFantsdy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarrotFantsdy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CarrotFantsdy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarrotFantsdy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConsolePro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConsolePro/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConsolePro/Editor/ConsolePro.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConsolePro/Editor/ConsolePro.Editor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConsolePro/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConsolePro/Readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QChildrenCountComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QChildrenCountComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QColorComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QColorComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QComponentsComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QComponentsComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QErrorComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QErrorComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QGameObjectIconComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QGameObjectIconComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QLockComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QLockComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QMonoBehaviorIconComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QMonoBehaviorIconComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QPrefabComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QPrefabComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QRendererComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QRendererComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QSeparatorComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QSeparatorComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QStaticComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QStaticComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QTagIconComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QTagIconComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QTagLayerComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QTagLayerComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QTreeMapComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QTreeMapComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QVisibilityComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/QVisibilityComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/pbase.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/pbase/QBaseComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pcomponent/pbase/QBaseComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata/QResources.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata/QResources.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata/QSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/pdata/QSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper/QColorPickerWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper/QColorPickerWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper/QObjectListInspector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper/QObjectListInspector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper/QObjectListManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phelper/QObjectListManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phierarchy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchySettingsWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchySettingsWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Manual.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Manual.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Scripts/QObjectList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QHierarchy/Scripts/QObjectList.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartLoadScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartLoadScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarrotFantsdy.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CarrotFantsdy.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityWakatime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityWakatime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/BaseFactory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="367">
               <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
               <folding>
                 <marker date="1553094521274" expanded="false" signature="6:78" ph="..." />
@@ -169,44 +67,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="487">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
               <folding>
-                <marker date="1553094559030" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553094559030" expanded="true" signature="103:224" ph="{...}" />
-                <marker date="1553094559030" expanded="true" signature="153:160" ph="{...}" />
-                <marker date="1553094559030" expanded="true" signature="215:222" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/UIFactory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <marker date="1553093715492" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553093715492" expanded="true" signature="117:168" ph="{...}" />
-                <marker date="1553093715492" expanded="true" signature="139:166" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/GameFactory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <marker date="1553093750411" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553093750411" expanded="true" signature="119:174" ph="{...}" />
-                <marker date="1553093750411" expanded="true" signature="143:172" ph="{...}" />
+                <marker date="1553415164766" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553415164766" expanded="true" signature="102:160" ph="///  ... " />
+                <marker date="1553415164766" expanded="true" signature="182:1516" ph="{...}" />
+                <marker date="1553415164766" expanded="true" signature="583:777" ph="{...}" />
+                <marker date="1553415164766" expanded="true" signature="779:819" ph="///  ... " />
+                <marker date="1553415164766" expanded="true" signature="843:1082" ph="{...}" />
+                <marker date="1553415164766" expanded="true" signature="1139:1194" ph="{...}" />
+                <marker date="1553415164766" expanded="true" signature="1249:1304" ph="{...}" />
+                <marker date="1553415164766" expanded="true" signature="1389:1460" ph="{...}" />
+                <marker date="1553415164766" expanded="true" signature="1504:1513" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -233,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/RuntimeAnimatorControllerFactory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <marker date="1553094247043" expanded="false" signature="6:78" ph="..." />
                 <marker date="1553094247043" expanded="true" signature="176:889" ph="{...}" />
@@ -249,59 +125,106 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/SpriteFactory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <marker date="1553094198470" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553094198470" expanded="true" signature="138:733" ph="{...}" />
-                <marker date="1553094198470" expanded="true" signature="279:311" ph="{...}" />
-                <marker date="1553094198470" expanded="true" signature="367:731" ph="{...}" />
-                <marker date="1553094198470" expanded="true" signature="488:535" ph="{...}" />
-                <marker date="1553094198470" expanded="true" signature="542:641" ph="{...}" />
-                <marker date="1553094198470" expanded="true" signature="664:711" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F354067-B98D-413F-B20D-811B67C2170C/1c/d6e29ceb/RuntimeAnimatorController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="291">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
               <folding>
-                <marker date="1553093408169" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553093408169" expanded="true" signature="79:126" ph="/// 游戏总管理，负责所有的管理者 ... " />
-                <marker date="1553093408169" expanded="true" signature="167:792" ph="{...}" />
-                <marker date="1553093408169" expanded="true" signature="398:432" ph="{...}" />
-                <marker date="1553093408169" expanded="true" signature="455:682" ph="{...}" />
-                <marker date="1553093408169" expanded="true" signature="732:790" ph="{...}" />
+                <marker date="1553414923105" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553414923105" expanded="true" signature="79:126" ph="/// 游戏总管理，负责所有的管理者 ... " />
+                <marker date="1553414923105" expanded="true" signature="167:1944" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="398:432" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="455:682" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="732:790" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="792:899" ph="/// 获取精灵资源 ... " />
+                <marker date="1553414923105" expanded="true" signature="945:1023" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="1025:1132" ph="/// 获取音频资源 ... " />
+                <marker date="1553414923105" expanded="true" signature="1184:1265" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="1349:1446" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="1448:1595" ph="///  ... " />
+                <marker date="1553414923105" expanded="true" signature="1681:1759" ph="{...}" />
+                <marker date="1553414923105" expanded="true" signature="1862:1942" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="266">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
-                <marker date="1553095023490" expanded="true" signature="6:81" ph="..." />
-                <marker date="1553095023490" expanded="true" signature="83:130" ph="/// 负责管理UI的manager ... " />
-                <marker date="1553095023490" expanded="true" signature="152:525" ph="{...}" />
-                <marker date="1553095023490" expanded="true" signature="354:519" ph="{...}" />
+                <marker date="1553318239671" expanded="true" signature="6:81" ph="..." />
+                <marker date="1553318239671" expanded="true" signature="83:130" ph="/// 负责管理UI的manager ... " />
+                <marker date="1553318239671" expanded="true" signature="152:529" ph="{...}" />
+                <marker date="1553318239671" expanded="true" signature="354:523" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <marker date="1553175613366" expanded="true" signature="35:89" ph="/// 工厂管理，负责管理各种类型的工厂以及对象池 ... " />
+                <marker date="1553175613366" expanded="true" signature="117:831" ph="{...}" />
+                <marker date="1553175613366" expanded="true" signature="420:829" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <marker date="1553176087991" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553176087991" expanded="true" signature="79:133" ph="/// 负责控制音乐的播放和停止以及各种音效的控制 ... " />
+                <marker date="1553176087991" expanded="true" signature="165:874" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="169:217" ph="/// 0播放bg，1播放特效音乐 ... " />
+                <marker date="1553176087991" expanded="true" signature="356:432" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="479:622" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="549:619" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="673:752" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="699:749" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="781:812" ph="{...}" />
+                <marker date="1553176087991" expanded="true" signature="840:871" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/IBasePanel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <marker date="1553176439886" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553176439886" expanded="true" signature="107:169" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/BasePanel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <marker date="1553317743070" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553317743070" expanded="true" signature="130:519" ph="{...}" />
+                <marker date="1553317743070" expanded="true" signature="197:258" ph="{...}" />
+                <marker date="1553317743070" expanded="true" signature="292:344" ph="{...}" />
+                <marker date="1553317743070" expanded="true" signature="379:431" ph="{...}" />
+                <marker date="1553317743070" expanded="true" signature="465:517" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -330,6 +253,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test/ScrollViewTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SlideCanCoverScrollView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB3F964-2747-47EA-8DBB-F446E27D4D28/01/d71c3939/RectTransform.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/IBasePanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/Memento.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -341,6 +265,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/BaseSceneState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/388CE5B0-3CEC-4CBE-8B0A-2AAB8E324B3A/9c/5ab6c3b5/GeneratedByOldBindingsGeneratorAttribute.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/BasePanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/StartLoadScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SliderScrollView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/MainSceneState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -384,8 +309,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Test/TriggerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/Memento.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/StringManager.cs" />
@@ -404,7 +327,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/IBaseRescrousFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/IBaseFacotry.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/FactoryType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/UIPanelFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/UIFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/GameFactory.cs" />
@@ -412,15 +334,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/AudioClipFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/RuntimeAnimatorControllerFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factory/BaseFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/IBasePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/BasePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="719" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="650" />
+    <option name="width" value="630" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -548,12 +475,12 @@
       <workItem from="1552724896409" duration="2719000" />
       <workItem from="1552738617630" duration="2000" />
       <workItem from="1552738967401" duration="6895000" />
-      <workItem from="1553092198451" duration="2818000" />
+      <workItem from="1553092198451" duration="6556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25006000" />
+    <option name="totallyTimeSpent" value="28744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,10 +492,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="719" extended-state="0" />
+    <frame x="650" y="0" width="630" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20193861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05102041" />
       <window_info id="Structure" order="1" weight="0.24852072" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +511,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="9" weight="0.32943144" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32943144" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.503231" side_tool="true" weight="0.3963068" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.503231" side_tool="true" weight="0.39569536" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Build" order="13" />
       <window_info anchor="bottom" id="Unity" order="14" />
@@ -683,6 +610,19 @@
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/BasePanel.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/BasePanel.cs" initialLine="10">
+            <startOffsets>
+              <option value="199" />
+            </startOffsets>
+            <endOffsets>
+              <option value="200" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="6" />
@@ -691,14 +631,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0C55FB9-6FCC-4BB9-B747-EFCD18420B8C/5a/516c9dc9/ScrollView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CB3F964-2747-47EA-8DBB-F446E27D4D28/01/d71c3939/RectTransform.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -870,31 +802,6 @@
           <folding>
             <marker date="1552740348661" expanded="true" signature="84:155" ph="{...}" />
             <marker date="1552740348661" expanded="true" signature="111:153" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <marker date="1552740883224" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552740883224" expanded="true" signature="79:133" ph="///  ... " />
-            <marker date="1552740883224" expanded="true" signature="167:288" ph="{...}" />
-            <marker date="1552740883224" expanded="true" signature="217:224" ph="{...}" />
-            <marker date="1552740883224" expanded="true" signature="279:286" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding>
-            <marker date="1552740909005" expanded="true" signature="0:54" ph="///  ... " />
-            <marker date="1552740909005" expanded="true" signature="82:91" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1222,40 +1129,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/RuntimeAnimatorControllerFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <marker date="1553094247043" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553094247043" expanded="true" signature="176:889" ph="{...}" />
-            <marker date="1553094247043" expanded="true" signature="378:411" ph="{...}" />
-            <marker date="1553094247043" expanded="true" signature="485:887" ph="{...}" />
-            <marker date="1553094247043" expanded="true" signature="625:672" ph="{...}" />
-            <marker date="1553094247043" expanded="true" signature="679:797" ph="{...}" />
-            <marker date="1553094247043" expanded="true" signature="820:867" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1553093408169" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553093408169" expanded="true" signature="79:126" ph="/// 游戏总管理，负责所有的管理者 ... " />
-            <marker date="1553093408169" expanded="true" signature="167:792" ph="{...}" />
-            <marker date="1553093408169" expanded="true" signature="398:432" ph="{...}" />
-            <marker date="1553093408169" expanded="true" signature="455:682" ph="{...}" />
-            <marker date="1553093408169" expanded="true" signature="732:790" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/BaseFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="367">
           <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding>
             <marker date="1553094521274" expanded="false" signature="6:78" ph="..." />
@@ -1284,28 +1160,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/AudioSourceManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="142">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <marker date="1553094559030" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553094559030" expanded="true" signature="103:224" ph="{...}" />
-            <marker date="1553094559030" expanded="true" signature="153:160" ph="{...}" />
-            <marker date="1553094559030" expanded="true" signature="215:222" ph="{...}" />
+            <marker date="1553176087991" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553176087991" expanded="true" signature="79:133" ph="/// 负责控制音乐的播放和停止以及各种音效的控制 ... " />
+            <marker date="1553176087991" expanded="true" signature="165:874" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="169:217" ph="/// 0播放bg，1播放特效音乐 ... " />
+            <marker date="1553176087991" expanded="true" signature="356:432" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="479:622" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="549:619" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="673:752" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="699:749" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="781:812" ph="{...}" />
+            <marker date="1553176087991" expanded="true" signature="840:871" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/IBasePanel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1553176439886" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553176439886" expanded="true" signature="107:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/FactoryManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <marker date="1553175613366" expanded="true" signature="35:89" ph="/// 工厂管理，负责管理各种类型的工厂以及对象池 ... " />
+            <marker date="1553175613366" expanded="true" signature="117:831" ph="{...}" />
+            <marker date="1553175613366" expanded="true" signature="420:829" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIPanel/BasePanel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1553317743070" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553317743070" expanded="true" signature="130:519" ph="{...}" />
+            <marker date="1553317743070" expanded="true" signature="197:258" ph="{...}" />
+            <marker date="1553317743070" expanded="true" signature="292:344" ph="{...}" />
+            <marker date="1553317743070" expanded="true" signature="379:431" ph="{...}" />
+            <marker date="1553317743070" expanded="true" signature="465:517" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/NormalManager/UIManger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <marker date="1553095023490" expanded="true" signature="6:81" ph="..." />
-            <marker date="1553095023490" expanded="true" signature="83:130" ph="/// 负责管理UI的manager ... " />
-            <marker date="1553095023490" expanded="true" signature="152:525" ph="{...}" />
-            <marker date="1553095023490" expanded="true" signature="354:519" ph="{...}" />
+            <marker date="1553318239671" expanded="true" signature="6:81" ph="..." />
+            <marker date="1553318239671" expanded="true" signature="83:130" ph="/// 负责管理UI的manager ... " />
+            <marker date="1553318239671" expanded="true" signature="152:529" ph="{...}" />
+            <marker date="1553318239671" expanded="true" signature="354:523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Factory/RuntimeAnimatorControllerFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <marker date="1553094247043" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553094247043" expanded="true" signature="176:889" ph="{...}" />
+            <marker date="1553094247043" expanded="true" signature="378:411" ph="{...}" />
+            <marker date="1553094247043" expanded="true" signature="485:887" ph="{...}" />
+            <marker date="1553094247043" expanded="true" signature="625:672" ph="{...}" />
+            <marker date="1553094247043" expanded="true" signature="679:797" ph="{...}" />
+            <marker date="1553094247043" expanded="true" signature="820:867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MonoBehaviourManager/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1553414923105" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553414923105" expanded="true" signature="79:126" ph="/// 游戏总管理，负责所有的管理者 ... " />
+            <marker date="1553414923105" expanded="true" signature="167:1944" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="398:432" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="455:682" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="732:790" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="792:899" ph="/// 获取精灵资源 ... " />
+            <marker date="1553414923105" expanded="true" signature="945:1023" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="1025:1132" ph="/// 获取音频资源 ... " />
+            <marker date="1553414923105" expanded="true" signature="1184:1265" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="1349:1446" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="1448:1595" ph="///  ... " />
+            <marker date="1553414923105" expanded="true" signature="1681:1759" ph="{...}" />
+            <marker date="1553414923105" expanded="true" signature="1862:1942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding>
+            <marker date="1553415164766" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553415164766" expanded="true" signature="102:160" ph="///  ... " />
+            <marker date="1553415164766" expanded="true" signature="182:1516" ph="{...}" />
+            <marker date="1553415164766" expanded="true" signature="583:777" ph="{...}" />
+            <marker date="1553415164766" expanded="true" signature="779:819" ph="///  ... " />
+            <marker date="1553415164766" expanded="true" signature="843:1082" ph="{...}" />
+            <marker date="1553415164766" expanded="true" signature="1139:1194" ph="{...}" />
+            <marker date="1553415164766" expanded="true" signature="1249:1304" ph="{...}" />
+            <marker date="1553415164766" expanded="true" signature="1389:1460" ph="{...}" />
+            <marker date="1553415164766" expanded="true" signature="1504:1513" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -37,4 +37,41 @@ public class GameManager : MonoBehaviour
 		GameObject go = Instantiate(itemGo);
 		return go;
 	}
+	/// <summary>
+	/// 获取精灵资源
+	/// </summary>
+	/// <param name="resourcePath"></param>
+	/// <returns></returns>
+	public Sprite GetSprite(string resourcePath)
+	{
+		return factoryManager.spriteFactory.GetSingleResources(resourcePath);
+	}
+	/// <summary>
+	/// 获取音频资源
+	/// </summary>
+	/// <param name="resourcePath"></param>
+	/// <returns></returns>
+	public AudioClip GetAudioClip(string resourcePath)
+	{
+		return factoryManager.audioClipFactory.GetSingleResources(resourcePath);
+	}
+	public RuntimeAnimatorController GetRuntimeAnimatorController(string resourcePath)
+	{
+		return factoryManager.runtimeAnimatorControllerFactory.GetSingleResources(resourcePath);
+	}
+	/// <summary>
+	/// 获取游戏物体
+	/// </summary>
+	/// <param name="factoryType"></param>
+	/// <param name="resourcePath"></param>
+	/// <returns></returns>
+	public GameObject GetGameObjectResource(FactoryType factoryType,string resourcePath)
+	{
+		return factoryManager.factoryDict[factoryType].GetItem(resourcePath);
+	}
+
+	public void PushGameObjectToFactory(FactoryType factoryType, string resourcePath, GameObject itemGo)
+	{
+		factoryManager.factoryDict[factoryType].PushItem(resourcePath, itemGo);
+	}
 }

@@ -15,7 +15,7 @@ public class UIManger
     {
       mGameManager = GameManager.Instance;
       currentScenePanelDict = new Dictionary<string, GameObject>();
-      mUIFacade = new UIFacade(); 
+      mUIFacade = new UIFacade(this); 
       
     }
   

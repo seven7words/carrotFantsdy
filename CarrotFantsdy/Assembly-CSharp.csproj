@@ -102,6 +102,20 @@
     <Compile Include="Assets\Scripts\Test\ScrollViewTest.cs" />
     <Compile Include="Assets\Scripts\Test\TriggerManager.cs" />
     <Compile Include="Assets\Scripts\UI\UIFacade.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\BasePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\BossModelPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\GameBossOptionPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\GameLoadPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\GameNormalBigLevelPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\GameNormalLevelPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\GameNormalOptionPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\HelpPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\IBasePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\MainPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\MonsterNestPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\NormalModelPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\SetPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanel\StartLoadPanel.cs" />
     <None Include="Assets\DOTween\readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/sevenqizai/Desktop/我的Unity工程们/carrotFantsdy/CarrotFantsdy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
