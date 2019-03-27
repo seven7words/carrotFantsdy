@@ -47,4 +47,21 @@ public class AudioSourceManager
 		audioSource[0].Play();
 	}
 
+	public void CloseOrOpenBGMusic()
+	{
+		playBGMusic = !playBGMusic;
+		if (playBGMusic)
+		{
+			OpenBgMusic();
+		}
+		else
+		{
+			CloseBGMusic();
+		}
+	}
+
+	public void CloseOrOpenEffectMusic()
+	{
+		playEffectMusic = !playEffectMusic;
+	}
 }

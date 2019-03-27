@@ -14,16 +14,13 @@ public class BasePanel : MonoBehaviour, IBasePanel
 
 	public virtual void InitPanel()
 	{
-		throw new System.NotImplementedException();
 	}
 
 	public virtual void EnterPanel()
 	{
-		throw new System.NotImplementedException();
 	}
 
 	public virtual void ExitPanel()
 	{
-		throw new System.NotImplementedException();
 	}
 }

@@ -1,13 +1,21 @@
 
 public class BaseSceneState:IBaseSceneState
 {
-    public void EnterScene()
+
+    protected UIFacade uiFacade;
+
+    public BaseSceneState(UIFacade uiFacade)
     {
+        this.uiFacade = uiFacade;
+    }
+    public virtual void EnterScene()
+    {
+        uiFacade.InitDict();
         
     }
 
-    public void ExitScene()
+    public virtual void ExitScene()
     {
-        
+        uiFacade.ClearDict();
     }
 }

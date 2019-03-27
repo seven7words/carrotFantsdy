@@ -17,16 +17,35 @@ public class SliderScrollView : MonoBehaviour,IBeginDragHandler, IEndDragHandler
 	private float moveOneItemLength;
 	private int currentIndex;
 	private Vector3 currentContentLocalPos;
-
+	private Vector3 contentInitPos;
 	public int totalItemNum;
-
+	public Text pageText;
 	private void Awake()
 	{
 		_scrollRect = GetComponent<ScrollRect>();
 		contentTrans = _scrollRect.content;
 		moveOneItemLength = cellLength + spacing;
 		currentContentLocalPos = contentTrans.localPosition;
+		contentInitPos = contentTrans.localPosition;
 		currentIndex = 1;
+		if (pageText != null)
+		{
+			pageText.text = currentIndex.ToString() + "/" + totalItemNum;
+            
+		}
+	}
+
+	public void Init()
+	{
+		 
+		currentIndex = 1;
+		contentTrans.localPosition = contentInitPos;
+		currentContentLocalPos = contentInitPos;
+		if (pageText != null)
+		{
+			pageText.text = currentIndex.ToString() + "/" + totalItemNum;
+            
+		}
 	}
 
 	public void OnBeginDrag(PointerEventData eventData)
@@ -69,5 +88,10 @@ public class SliderScrollView : MonoBehaviour,IBeginDragHandler, IEndDragHandler
 			currentContentLocalPos + new Vector3(moveDistance, 0, 0), 0.5f).SetEase(Ease.InOutQuint);
 		Debug.Log("TRets");
 		currentContentLocalPos +=new Vector3(moveDistance, 0,0);
+		if (pageText != null)
+		{
+			pageText.text = currentIndex.ToString() + "/" + totalItemNum;
+            
+		}
 	}
 }

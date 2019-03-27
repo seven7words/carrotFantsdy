@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartLoadPanel : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
+public class StartLoadPanel : BasePanel {
+	protected override void Awake()
+	{
+		base.Awake();
+		Invoke("LoadNextScene",2f);
 	}
-	
+
+	private void LoadNextScene()
+	{
+		mUIFacade.ChangeSceneState(new MainSceneState(mUIFacade));
+	}
 	// Update is called once per frame
 	void Update () {
 		

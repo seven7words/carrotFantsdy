@@ -19,7 +19,7 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
 
 	private float endMousePosX;
 
-	private ScrollRect _scrollRect;
+	public ScrollRect _scrollRect;
 	/// <summary>
 	/// 上一个位置比例
 	/// </summary>
@@ -63,8 +63,11 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
 	/// </summary>
 	private int currentIndex;
 
+	public Text pageText;
+
 	private void Awake()
 	{
+		
 		_scrollRect = GetComponent<ScrollRect>();
 		contentLength = _scrollRect.content.rect.xMax - cellLength;
 		firstItemLength = cellLength / 2 + leftOffset;
@@ -74,6 +77,10 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
 		lowerLimit = firstItemLength / contentLength;
 		currentIndex = 1;
 		_scrollRect.horizontalNormalizedPosition = 0;
+		if (pageText != null)
+		{
+			pageText.text = currentIndex.ToString() + "/" + totalItemNum;
+		}
 //		Debug.Log(contentLength);
 	}
 
@@ -132,10 +139,30 @@ public class SlideCanCoverScrollView : MonoBehaviour, IBeginDragHandler,IEndDrag
                     lastProportion = 0;
                 }
             }
-            
+
             
         }
         DOTween.To(() => _scrollRect.horizontalNormalizedPosition, lerpValue => _scrollRect.horizontalNormalizedPosition = lerpValue, lastProportion, 0.5f).SetEase(Ease.OutQuint);
+        if (pageText != null)
+        {
+			pageText.text = currentIndex.ToString() + "/" + totalItemNum;
+            
+        }
 
     }
+
+	public void Init()
+	{
+		lastProportion = 0;
+		currentIndex = 1;
+		if (_scrollRect != null)
+		{
+			_scrollRect.horizontalNormalizedPosition = 0;
+			if (pageText != null)
+			{
+				pageText.text = currentIndex.ToString() + "/" + totalItemNum;
+            
+			}
+		}
+	}
 }

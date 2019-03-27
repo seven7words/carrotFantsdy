@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 224016184999512030}
   - component: {fileID: 222240992161467866}
   - component: {fileID: 114579522738014510}
-  - component: {fileID: 114466576828825312}
+  - component: {fileID: 114270639471751586}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: MoveToLeft
         m_Mode: 1
         m_Arguments:
@@ -527,7 +527,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: ExitPanel
         m_Mode: 1
         m_Arguments:
@@ -540,6 +540,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114270639471751586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1563534816507038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d2f7a8c500b4e7785aeb8617de3bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114276434184827654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -687,7 +698,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: ToMonsterNest
         m_Mode: 1
         m_Arguments:
@@ -754,17 +765,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114466576828825312
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1563534816507038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114579522738014510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: MoveToRight
         m_Mode: 1
         m_Arguments:
@@ -869,7 +869,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: ExitPanel
         m_Mode: 1
         m_Arguments:
@@ -948,7 +948,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: ToBossModelScene
         m_Mode: 1
         m_Arguments:
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114466576828825312}
+      - m_Target: {fileID: 114270639471751586}
         m_MethodName: ToNormalModelScene
         m_Mode: 1
         m_Arguments:

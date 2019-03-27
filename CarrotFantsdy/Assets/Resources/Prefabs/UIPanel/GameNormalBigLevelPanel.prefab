@@ -158,6 +158,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224335344684865340}
+  - component: {fileID: 114078367888325912}
   m_Layer: 5
   m_Name: GameNormalBigLevelPanel
   m_TagString: Untagged
@@ -561,6 +562,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114078367888325912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520898867595990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588e01e38e76c44eea0d463e8d5de5b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114143102637521596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1474,10 +1486,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf7d4fedd35346b1b6ccb5c4844d76b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _scrollRect: {fileID: 0}
   cellLength: 850
   spacing: 200
   leftOffset: 400
   totalItemNum: 3
+  pageText: {fileID: 0}
 --- !u!114 &114896319151486354
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1713,7 +1727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 299.99997}
+  m_AnchoredPosition: {x: 0, y: 0.000030517578}
   m_SizeDelta: {x: 3000, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224019430721945696

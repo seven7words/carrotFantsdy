@@ -13,7 +13,7 @@ public class UIFacade
 	private UIManger uiManger;
 	private GameManager gameManager;
 	private AudioSourceManager audioSourceManager;
-	private PlayerManager playerManager;
+	public PlayerManager playerManager;
 	//场景状态
 	public IBaseSceneState currentSceneState;
 
@@ -32,7 +32,7 @@ public class UIFacade
 		gameManager = GameManager.Instance;
 		playerManager = GameManager.Instance.playerManager;
 		audioSourceManager = GameManager.Instance.audioSourceManager;
-
+		InitMask();
 	}
 
 	/// <summary>
@@ -44,7 +44,7 @@ public class UIFacade
 //		mask = gameManager.factoryManager.factoryDict[FactoryType.UIFactory].GetItem("Img_Mask");
 		mask = GetGameObjectResource(FactoryType.UIFactory, "Img_Mask");
 
-		mask = CreateUIAndSetUIPosition("UI_Mask");
+		mask = CreateUIAndSetUIPosition("Img_Mask");
 		maskImage = mask.GetComponent<Image>();
 
 	}
@@ -61,6 +61,7 @@ public class UIFacade
 	/// </summary>
 	public void ShowMask()
 	{
+		mask.transform.SetSiblingIndex(10);
 		Tween t = DOTween.To(() => maskImage.color, toColor => maskImage.color = toColor, new Color(0,0,0,1),2f );
 		t.OnComplete(ExitSceneComplete);
 
@@ -79,7 +80,8 @@ public class UIFacade
 	/// </summary>
 	public void HideMask()
 	{
-		DOTween.To(() => maskImage.color, toColor => maskImage.color = toColor, new Color(0,0,0,0),1f );
+		mask.transform.SetSiblingIndex(10);
+		DOTween.To(() => maskImage.color, toColor => maskImage.color = toColor, new Color(0,0,0,0),2f );
 
 	}
 
@@ -165,7 +167,16 @@ public class UIFacade
 		currentScenePanelDict.Clear();
 		uiManger.ClearDict();
 	}
+	//开关音乐
+	public void CloseOrOpenBGMusic()
+	{
+		audioSourceManager.CloseBGMusic();
+	}
 
+	public void CloseOrOpenEffectMusic()
+	{
+		audioSourceManager.CloseOrOpenEffectMusic();
+	}
 }
 	
 	

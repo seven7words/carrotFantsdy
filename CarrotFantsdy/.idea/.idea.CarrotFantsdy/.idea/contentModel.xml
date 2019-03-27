@@ -55,8 +55,6 @@
             <e p="StartLoadScene.cs" t="Include" />
           </e>
           <e p="Singleton.cs" t="Include" />
-          <e p="SlideCanCoverScrollView.cs" t="Include" />
-          <e p="SliderScrollView.cs" t="Include" />
           <e p="Test" t="Include">
             <e p="DotweenTest.cs" t="Include" />
             <e p="DPFactory.cs" t="Include" />
@@ -66,6 +64,22 @@
             <e p="TriggerManager.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="UI" t="Include">
+              <e p="ButtonSellTower.cs" t="Include" />
+              <e p="ButtonTower.cs" t="Include" />
+              <e p="ButtonUpLevel.cs" t="Include" />
+              <e p="CanvasDontDestoryOnLoad.cs" t="Include" />
+              <e p="CoinMove.cs" t="Include" />
+              <e p="GameOverPage.cs" t="Include" />
+              <e p="GameWinPage.cs" t="Include" />
+              <e p="Heart.cs" t="Include" />
+              <e p="MenuPage.cs" t="Include" />
+              <e p="MonsterPet.cs" t="Include" />
+              <e p="PrizePage.cs" t="Include" />
+              <e p="SlideCanCoverScrollView.cs" t="Include" />
+              <e p="SliderScrollView.cs" t="Include" />
+              <e p="TopPage.cs" t="Include" />
+            </e>
             <e p="UIFacade.cs" t="Include" />
             <e p="UIPanel" t="Include">
               <e p="BasePanel.cs" t="Include" />

@@ -16,6 +16,7 @@ public class UIManger
       mGameManager = GameManager.Instance;
       currentScenePanelDict = new Dictionary<string, GameObject>();
       mUIFacade = new UIFacade(this); 
+      mUIFacade.currentSceneState = new StartLoadScene(mUIFacade);
       
     }
     /// <summary>
@@ -34,7 +35,8 @@ public class UIManger
     {
         foreach (var o in currentScenePanelDict)
         {
-            PushUIPanel(o.Value.name, o.Value);
+            Debug.Log(o.Value.name);
+            PushUIPanel(o.Value.name.Substring(0, o.Value.name.Length-7), o.Value);
         }
         currentScenePanelDict.Clear();
     }
